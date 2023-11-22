@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "836503754729",
+    "project_id": "mynotes-ca63c",
+    "storage_bucket": "mynotes-ca63c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836503754729:android:6f6c84c14a33e891f79d78",
+        "android_client_info": {
+          "package_name": "com.example.myflutter_firebase_firestore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3asmpbYWuKWcS8q-GI6u7EoD6Dk-WmjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
