@@ -119,7 +119,6 @@ class _MyHomePageState extends State<MyHomePage> {
                               child: Column(
                                 children: [
                                   Text(noteText),
-                                  Text(noteTimeStamp.toString()),
                                 ],
                               ),
                             ),
@@ -129,6 +128,11 @@ class _MyHomePageState extends State<MyHomePage> {
                             bottom: 0,
                             child: Row(
                               children: [
+                                Text(
+                                  noteTimeStamp.toString(),
+                                  style: const TextStyle(
+                                      fontSize: 10, color: Colors.blueGrey),
+                                ),
                                 IconButton(
                                     onPressed: () {
                                       openNoteBox(docID);
