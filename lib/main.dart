@@ -92,6 +92,7 @@ class _MyHomePageState extends State<MyHomePage> {
           if (snapshot.hasData) {
             List notesList = snapshot.data!.docs;
             return GridView.builder(
+              shrinkWrap: true,
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2,
               ),
